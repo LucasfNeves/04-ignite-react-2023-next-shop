@@ -50,11 +50,15 @@ export const getServerSideProps: GetServerSideProps = async ({query}) => {
         }
     }
 
+    // Aqui estamos buscando o nome do cliente e o nome do produto que eu busquei na API do Stripe por meio do expand, eu tenho que fazer isso aqui porque o Stripe não me retorna essas informações na hora que eu crio a sessão de checkout
     const response = await stripe.checkout.sessions.retrieve(sessionId, {
         expand: ['line_items', 'line_items.data.price.product']
     });
 
+    // Aqui estamos pegando o nome do cliente e o nome do produto que eu busquei na API do Stripe por meio do expand  
     const customerName = response.customer_details ? response.customer_details.name as string : '';
+
+    // Aqui estamos pegando o produto que eu busquei na API do Stripe por meio do expand
     const product = response.line_items?.data[0]?.price?.product as Stripe.Product;
 
     return {
