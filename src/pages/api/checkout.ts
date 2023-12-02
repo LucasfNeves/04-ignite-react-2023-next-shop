@@ -9,11 +9,12 @@ export default async function handler( req: NextApiRequest, res: NextApiResponse
         res.status(405).json('Method not allowed')
     }
 
+    // Checa se o priceId foi passado no body da requisição
     if (!priceId) {
         res.status(400).json({ error: 'Missing priceId' })
     }
 
-    const successUrl = `${process.env.NEXT_URL}/success`
+    const successUrl = `${process.env.NEXT_URL}/success?session_id={CHECKOUT_SESSION_ID}`
     const cancelUrl = `${process.env.NEXT_URL}/`
     const checkoutMode = name === 'Explorer 2.0' ? 'subscription' : 'payment'
 
