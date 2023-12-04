@@ -1,7 +1,7 @@
-## About
+# Sobre o Projeto :
 Aplicação de marketplace desenvolvida no módulo: Fundamentos do Next.js do curso de React Ignite da Rockteaseat
 
-## Tecnologias utilizadas 
+# Tecnologias utilizadas 
 - JavaScript
 - TypeScript
 - ReactJS
@@ -10,8 +10,9 @@ Aplicação de marketplace desenvolvida no módulo: Fundamentos do Next.js do cu
 - CSS
 - HTML
 
-## API
+# API
 - STRIPE
 - AXIOS
 
+# Notas :
 Na pasta anotacoes-aula-5 contém todas minhas anotações feitas durante o módulo, é um contéudo excelente para estudos.
