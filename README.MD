@@ -13,3 +13,5 @@ Aplicação de marketplace desenvolvida no módulo: Fundamentos do Next.js do cu
 ## API
 - STRIPE
 - AXIOS
+
+Na pasta anotacoes-aula-5 contém todas minhas anotações feitas durante o módulo, é um contéudo excelente para estudos.
