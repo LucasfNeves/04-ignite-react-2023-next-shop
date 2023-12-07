@@ -1,16 +1,17 @@
-# Sobre o Projeto :
-Aplicação de marketplace desenvolvida no módulo: Fundamentos do Next.js do curso de React Ignite da Rockteaseat
 
-# Tecnologias utilizadas 
+## Sobre o Projeto:
+Este projeto é uma aplicação de marketplace desenvolvida durante o módulo "Fundamentos do Next.js" do curso React Ignite da Rocketseat. O curso proporcionou uma base sólida no desenvolvimento de aplicações web utilizando tecnologias modernas.
+
+### Tecnologias Utilizadas:
 - JavaScript
 - TypeScript
 - ReactJS
-- NextJS
+- Next.js
 - Stitches
 - CSS
 - HTML
 
-# API
-- STRIPE
-- AXIOS
+### Integrações e API:
+Stripe: Utilizado para processamento de pagamentos e transações financeiras.
+Axios: Biblioteca para realizar requisições HTTP.
 
