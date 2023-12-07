@@ -12,6 +12,9 @@ Este projeto é uma aplicação de marketplace desenvolvida durante o módulo "F
 - HTML
 
 ### Integrações e API:
-Stripe: Utilizado para processamento de pagamentos e transações financeiras.
-Axios: Biblioteca para realizar requisições HTTP.
+- Stripe: Utilizado para processamento de pagamentos e transações financeiras.
+- Axios: Biblioteca para realizar requisições HTTP.
 
+### Conclusão : 
+
+Este projeto é uma demonstração prática das habilidades adquiridas durante o curso Ignite da Rocketseat, focado em aprimorar as habilidades em React e Next.js, proporcionando uma experiência abrangente no desenvolvimento de aplicações web modernas.
